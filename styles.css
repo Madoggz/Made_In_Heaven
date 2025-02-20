@@ -135,7 +135,7 @@ form button {
 
 /*contato*/
 #contato .container {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
 }
@@ -162,7 +162,7 @@ form button {
 
 form textarea {
     resize: none;
-    height: 120px;
+    height: 180px;
 }
 
 section h3 {
@@ -182,7 +182,7 @@ form button:hover {
 }
 
 input:focus, textarea:focus {
-    border: gold 1px solid;
+    outline-color: gold;
 }
 
 .address {
